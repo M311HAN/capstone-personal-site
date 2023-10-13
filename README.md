@@ -1,5 +1,7 @@
 # capstone-personal-site
 
+[Check out the live site here!](https://m311han.github.io/capstone-personal-site/)
+
 ## Description
 
 Capstone Personal Site is a four-page website where I share personal information, hobbies, favourite recipes, and a saved items feature. The website is primarily designed for those who share similar interests and would like to know more about me, my childhood and my favourite recipes. It also offers a feature for users to save articles, images, links, and information for viewing at a later time.
