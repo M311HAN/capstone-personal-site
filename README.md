@@ -9,6 +9,7 @@ Capstone Personal Site is a four-page website where I share personal information
 ## Table of Contents
 
 - [Installation](#installation)
+- [Containerisation](#Containerisation)
 - [Usage](#usage)
 - [Credits](#credits)
 
@@ -27,6 +28,21 @@ cd capstone-personal-site
 
 # Open with live server (you need to have Live Server extension installed on your code editor) If you are not using VS Code or don't have the "Live Server" extension, you can simply open the index.html file with any web browser to view the website.
 ```
+
+## Containerisation
+
+This project also comes with a Dockerfile that can be used to containerise the application. This allows for a consistent environment and easy deployment across different systems. To run the site within a Docker container, follow these steps:
+
+```bash
+# Make sure Docker is installed on your system.
+
+# Build the Docker image:
+docker build -t capstone-personal-site .
+
+# Run the Docker container:
+docker run -d -p 80:80 capstone-personal-site
+```
+This will start the website inside a Docker container, and it can be accessed via a browser at http://localhost.
  
 ## Usage
 
