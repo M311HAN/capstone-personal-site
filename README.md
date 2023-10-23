@@ -37,12 +37,12 @@ This project also comes with a Dockerfile that can be used to containerise the a
 # Make sure Docker is installed on your system.
 
 # Build the Docker image:
-docker build -t capstone-personal-site .
+docker build --platform linux/amd64 -t melihhan/my-website:amd64 .
 
 # Run the Docker container:
-docker run -d -p 80:80 capstone-personal-site
+docker run -d -p 80:80 melihhan/my-website:amd64
 ```
-This will start the website inside a Docker container, and it can be accessed via a browser at http://localhost.
+This will start the website inside a Docker container, and it can be accessed via a browser at http://localhost:80 .
  
 ## Usage
 
